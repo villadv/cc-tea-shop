@@ -13,5 +13,4 @@ css
 .DS_Store
 
 # eleventy.js
-.eleventy.js
 .vscode/settings.json
