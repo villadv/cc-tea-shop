@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="{{ 'css/style.css' | url }}" />
 </head>
 <body> 
-    {% include 'header.njk' %}   
-
-    <h1>{{ title }} </h1>
+<div class="overflow">
+    {% include 'header.njk' %} 
 
     {{content | safe }}
 
-    {% include 'footer.njk' %}  
+    {% include 'locations.njk' %}  
 
+    {% include 'footer.njk' %}  
+</div>
 </body>
 </html>
