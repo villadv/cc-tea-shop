@@ -2,14 +2,17 @@
 layout: "base.njk"
 ---
 
+<section>
 <div class="banner" id="mission">
   <div class="banner-text">
     <h2>Our Mission</h2>
     <h4>Handpciked, Arisanlly Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
   </div>
 </div>
+</section>
 
-<section class="tea-otm" id="featured">
+<section>
+<div class="tea-otm" id="featured">
     <div class="section-title" >
     <h1>Tea of the Month</h1>
     <h4>What's Steeping at The Tea Cozy?</h4>
@@ -36,4 +39,5 @@ layout: "base.njk"
         <h4>Bedofrd Bizzare Tea</h4>
         </div>
     </div>
+</div>
 </section>
